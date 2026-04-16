@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Organizer</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container">
+            <div class="nav-logo">
+                <a href="#home">Course Organizer</a>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#my-course">my courses</a></li>
+                    <li><a href="#add-course">add course</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <header id="home" class="section">
+        <div class="home-content">
+            <h2>Organize your courses easily</h2>
+            <br>
+            <div class="home-button"><a href="#my-course" class="btn">Get Started</a></div>
+            
+        </div>
+        
+    </header>
+
+    <!-- MY COURSES -->
+    <section id="my-course" class="section">
+        <div class="container">
+            <div class="mycourse-content">
+                <h2>My Courses</h2>
+                <p>============</p>
+            </div>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Instructor</th>
+                        <th>Credit Hours</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Dr. Aya</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Dr. Manal</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>JS</td>
+                        <td>Dr. Sara</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>IT</td>
+                        <td>Dr. Ahmed</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Networks</td>
+                        <td>Dr. Soha</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ADD COURSE -->
+    <section id="add-course" class="section">
+        <div class="container">
+             <div class="mycourse-content">
+            <h2>Add Course</h2>
+            <p>============</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Course Name" required>
+                <input type="text" placeholder="Instructor" required>
+                <input type="number" placeholder="Credit Hour" required>
+                <input type="text" placeholder="Notes" required>
+
+                <button type="submit">Add Course</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+             <div class="mycourse-content">
+            <h2>Contact Us</h2>
+            <p>============</p>
+            </div>
+           <div class="kkk">
+            <div class="contact-us">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text">
+                    <h3>Call Us</h3>
+                    <p>01234567899</p>
+                </div>
+            </div>
+
+            <div class="contact-us">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text">
+                    <h3>Email Us</h3>
+                    <p>contact@example.com</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Course Organizer. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
